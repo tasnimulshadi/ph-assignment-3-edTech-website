@@ -20,8 +20,9 @@
                 <!-- nav logo -->
                 <a class="navbar-brand fs-2 fw-bold edu-dark2 " href="#">Edu Tech</a>
                 <!-- hidden btn -->
-                <button class="btn btn-outline-info px-4 d-none d-md-block d-lg-none ms-auto" type="submit"
-                    style="position: relative;right: -185px;">Login</button>
+                <button
+                    class="btn btn-secondary edu-border-blue edu-blue edu-bg-white px-4 d-none d-md-block d-lg-none ms-auto"
+                    type="submit" style="position: relative;right: -185px;">Login</button>
                 <!-- hidden btn end-->
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -53,7 +54,8 @@
                     <button class="btn btn-outline-info px-4 d-md-none" type="submit">Login</button>
                 </div>
                 <!-- nav btn -->
-                <button class="btn btn-outline-info px-4 d-none d-lg-block" type="submit">Login</button>
+                <button class="btn btn-secondary edu-border-blue edu-blue edu-bg-white px-4 d-none d-lg-block"
+                    type="submit">Login</button>
             </div>
         </nav>
 
@@ -68,7 +70,8 @@
                             <h1>Get Started Digital <br> Learning</h1>
                             <p>Learning based on the use of new digital tools to enable learners to learn in a different
                                 way</p>
-                            <div><button class="btn btn-info">Get Started</button></div>
+                            <div><button class="btn btn-dark edu-bg-blue text-white edu-border-blue">Get
+                                    Started</button></div>
                         </div>
                     </div>
                     <!-- slider-2 -->
@@ -78,7 +81,8 @@
                             <h1>Get Started Digital <br> Learning</h1>
                             <p>Learning based on the use of new digital tools to enable learners to learn in a different
                                 way</p>
-                            <div><button class="btn btn-info">Get Started</button></div>
+                            <div><button class="btn btn-dark edu-bg-blue text-white edu-border-blue">Get
+                                    Started</button></div>
                         </div>
                     </div>
                     <!-- slider-3 -->
@@ -88,7 +92,8 @@
                             <h1>Get Started Digital <br> Learning</h1>
                             <p>Learning based on the use of new digital tools to enable learners to learn in a different
                                 way</p>
-                            <div><button class="btn btn-info">Get Started</button></div>
+                            <div><button class="btn btn-dark edu-bg-blue text-white edu-border-blue">Get
+                                    Started</button></div>
                         </div>
                     </div>
                 </div>
@@ -249,19 +254,94 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-info px-4 d-block mx-auto" type="submit">See More Courses</button>
+            <button class="btn btn-dark edu-bg-blue text-white edu-border-blue px-4 d-block mx-auto" type="submit">See
+                More Courses</button>
         </section>
 
         <!-- Join section -->
         <section class="join-section container p-5 my-5 edu-bg-blue rounded-2">
-            <div class="p-5">
-                <div class="text-white">
+            <div
+                class=" d-flex flex-md-row justify-content-md-between justify-content-center flex-column align-items-center">
+                <div class="text-white d-flex flex-column align-items-md-start align-items-center me-lg-5">
                     <h1 class="fw-bold ">Ready to join?</h1>
                     <p class="">Start, switch, or advance your career with more digital courses, Professional
                         Certificates, and degrees from world-class universities and companies. Join Now.</p>
                 </div>
-                <div>
-                    <button class="btn btn-light">Register Now</button>
+                <!-- Modal btn -->
+                <button class="btn btn-secondary edu-border-blue edu-blue edu-bg-white d-block text-nowrap ms-md-5"
+                    data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- form -->
+                                <form class="row g-2 needs-validation" novalidate>
+                                    <div class="col-md-6">
+                                        <label for="validationCustom01" class="form-label">First name</label>
+                                        <input type="text" class="form-control" id="validationCustom01"
+                                            placeholder="first name" value="" required>
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="validationCustom02" class="form-label">Last name</label>
+                                        <input type="text" class="form-control" id="validationCustom02"
+                                            placeholder="last name" value="" required>
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="validationCustomUsername" class="form-label">Username</label>
+                                        <div class="input-group has-validation">
+                                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                            <input type="text" class="form-control" id="validationCustomUsername"
+                                                aria-describedby="inputGroupPrepend" required>
+                                            <div class="invalid-feedback">
+                                                Please choose a username.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="validationCustomPassword" class="form-label">Password</label>
+                                        <input type="password" class="form-control" placeholder="at least 6 characters"
+                                            id="validationCustomPassword" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid password.
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck"
+                                                required>
+                                            <label class="form-check-label" for="invalidCheck">
+                                                Agree to terms and conditions
+                                            </label>
+                                            <div class="invalid-feedback">
+                                                You must agree before submitting.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-dark edu-bg-blue text-white edu-border-blue"
+                                            type="submit">Submit
+                                            form</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
