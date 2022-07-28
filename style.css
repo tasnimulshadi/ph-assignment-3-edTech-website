@@ -69,6 +69,8 @@ body {
 /* Media Query */
 /* Small Devices */
 @media screen and (max-width:575px) {
+
+    /* banner */
     .edu-carousel-caption {
         width: 60%;
     }
@@ -80,10 +82,17 @@ body {
     .edu-carousel-caption p {
         font-size: 12px;
     }
+
+    /* course */
+    .edu-course-img {
+        height: 225px;
+    }
 }
 
 /* Medium Devices */
 @media screen and (min-width:576px) and (max-width:767px) {
+
+    /* banner */
     .edu-carousel-caption {
         width: 70%;
     }
@@ -96,10 +105,14 @@ body {
         font-size: 10px;
         line-height: 12px;
     }
+
+
 }
 
 /* Large Devices */
 @media screen and (min-width:768px) and (max-width:991px) {
+
+    /* banner */
     .edu-carousel-caption {
         width: 65%;
     }
@@ -111,6 +124,8 @@ body {
 
 /* Extra Large Devices */
 @media screen and (min-width:992px) and (max-width:1199px) {
+
+    /* banner */
     .edu-carousel-caption {
         width: 60%;
     }
