@@ -1,0 +1,41 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+/* Common Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* custom colors */
+.edu-dark1 {
+    color: #1D1D1D;
+}
+
+.edu-dark2 {
+    color: #4A4A4A;
+}
+
+.edu-dark3 {
+    color: #777777;
+}
+
+.edu-dark7 {
+    color: #F4F4F4;
+}
+
+.edu-blue {
+    color: #289BDE;
+}
+
+.edu-bg-blue {
+    background-color: #289BDE;
+}
+
+.edu-bg-sky {
+    background-color: #F4FAFD;
+}
+
+.edu-bg-black {
+    background-color: #161616;
+}
