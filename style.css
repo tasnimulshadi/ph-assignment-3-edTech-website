@@ -74,6 +74,14 @@ body {
 
 .edu-carousel-caption button {}
 
+.faq-question:not(.collapsed) {
+    color: #4A4A4A;
+    background-color: rgba(40, 155, 222, 0.1);
+    ;
+}
+
+
+
 /* Media Query */
 /* Small Devices */
 @media screen and (max-width:575px) {
