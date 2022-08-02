@@ -56,6 +56,7 @@ body {
 /* banner */
 .edu-cover-img {
     filter: brightness(40%);
+    object-fit: cover;
 }
 
 .edu-carousel-caption {
@@ -90,14 +91,23 @@ body {
     background-color: #353535;
 }
 
+.edu-course-img {
+    object-fit: cover;
+}
+
 
 /* Media Query */
 /* Small Devices */
 @media screen and (max-width:575px) {
 
     /* banner */
+    .edu-cover-img {
+        height: 90vh;
+    }
+
     .edu-carousel-caption {
-        width: 60%;
+        width: 70%;
+        top: 60%;
     }
 
     .edu-carousel-caption h1 {
@@ -118,12 +128,17 @@ body {
 @media screen and (min-width:576px) and (max-width:767px) {
 
     /* banner */
+    .edu-cover-img {
+        height: 60vh;
+    }
+
     .edu-carousel-caption {
         width: 70%;
+        top: 50%;
     }
 
     .edu-carousel-caption h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .edu-carousel-caption p {
